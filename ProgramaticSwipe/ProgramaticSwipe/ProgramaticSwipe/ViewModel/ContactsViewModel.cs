@@ -28,9 +28,6 @@ namespace ListViewSample
                 var contact = new Contacts();
                 contact.ContactName = CustomerNames[i];
                 contact.ContactNumber = r.Next(720, 799).ToString() + " - " + r.Next(3010, 3999).ToString();
-                contact.ContactColor = Color.FromRgb(r.Next(40, 255), r.Next(40, 255), r.Next(40, 255));
-                contact.ContactImage = ImageSource.FromResource("ListViewSample.Images.Image" + r.Next(0, 28) + ".png");
-                contact.UserId = i;
                 contactsinfo.Add(contact);
             }
         }

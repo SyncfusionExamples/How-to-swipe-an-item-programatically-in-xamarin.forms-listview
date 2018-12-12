@@ -12,34 +12,16 @@ namespace ListViewSample
     {
         private string contactName;
         private string contactNumber;
-        private ImageSource image;
-        private string displayString;
-        private Color color;
-        private int userId;
 
         public Contacts(string name, string number)
         {
             contactName = name;
             contactNumber = number;
-            displayString = name[0].ToString();
         }
 
         public Contacts()
         {
 
-        }
-
-        public int UserId
-        {
-            get { return userId; }
-            set
-            {
-                if (userId != value)
-                {
-                    userId = value;
-                    this.RaisedOnPropertyChanged("UserId");
-                }
-            }
         }
 
         public string ContactName
@@ -66,43 +48,6 @@ namespace ListViewSample
                     this.RaisedOnPropertyChanged("ContactNumber");
                 }
             }
-        }
-
-        public ImageSource ContactImage
-        {
-            get { return this.image; }
-            set
-            {
-                this.image = value;
-                this.RaisedOnPropertyChanged("ContactImage");
-            }
-        }
-
-        public string DisplayString
-        {
-            get { return displayString; }
-            set
-            {
-                if (displayString != value)
-                {
-                    displayString = value;
-                    this.RaisedOnPropertyChanged("DisplayString");
-                }
-            }
-        }
-
-        public Color ContactColor
-        {
-            get { return color; }
-            set
-            {
-                if (color != value)
-                {
-                    color = value;
-                    this.RaisedOnPropertyChanged("ContactColor");
-                }
-            }
-
         }
 
         public event PropertyChangedEventHandler PropertyChanged;
