@@ -1,6 +1,6 @@
-# How to swipe an item programatically in xamarin.forms listview?
+# How to swipe an item programmatically in xamarin.forms listview?
 
-This example demonstrates how to swipe an item programatically in xamarin.forms listview.
+This example demonstrates how to swipe an item programmatically in xamarin.forms listview.
 
 ## Requirements to run the demo
 

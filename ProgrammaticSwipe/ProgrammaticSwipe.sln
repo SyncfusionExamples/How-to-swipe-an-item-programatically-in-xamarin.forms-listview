@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListViewSample.Android", "ProgramaticSwipe\ProgramaticSwipe.Android\ListViewSample.Android.csproj", "{8D346F4A-7D0E-4B8D-A887-EADE9483EF4B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListViewSample.Android", "ProgrammaticSwipe\ProgrammaticSwipe.Android\ListViewSample.Android.csproj", "{8D346F4A-7D0E-4B8D-A887-EADE9483EF4B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListViewSample.iOS", "ProgramaticSwipe\ProgramaticSwipe.iOS\ListViewSample.iOS.csproj", "{62B61D3C-07B0-42C3-AA96-F9D51CC41BC8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListViewSample.iOS", "ProgrammaticSwipe\ProgrammaticSwipe.iOS\ListViewSample.iOS.csproj", "{62B61D3C-07B0-42C3-AA96-F9D51CC41BC8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListViewSample.UWP", "ProgramaticSwipe\ProgramaticSwipe.UWP\ListViewSample.UWP.csproj", "{532C2AF7-C210-40A3-9F7E-397C74058705}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListViewSample.UWP", "ProgrammaticSwipe\ProgrammaticSwipe.UWP\ListViewSample.UWP.csproj", "{532C2AF7-C210-40A3-9F7E-397C74058705}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListViewSample", "ProgramaticSwipe\ProgramaticSwipe\ListViewSample.csproj", "{E01A5EA8-F7B4-49F6-98AF-3010756552D0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListViewSample", "ProgrammaticSwipe\ProgrammaticSwipe\ListViewSample.csproj", "{E01A5EA8-F7B4-49F6-98AF-3010756552D0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
