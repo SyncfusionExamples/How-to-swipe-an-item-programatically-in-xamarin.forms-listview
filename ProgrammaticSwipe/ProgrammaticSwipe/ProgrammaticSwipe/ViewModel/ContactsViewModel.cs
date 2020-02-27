@@ -27,6 +27,7 @@ namespace ListViewSample
             {
                 var contact = new Contacts();
                 contact.ContactName = CustomerNames[i];
+                contact.ContactImage = ImageSource.FromResource("ListViewSample.Images.Image" + r.Next(0, 28) + ".png", typeof(MainPage));
                 contact.ContactNumber = r.Next(720, 799).ToString() + " - " + r.Next(3010, 3999).ToString();
                 contactsinfo.Add(contact);
             }

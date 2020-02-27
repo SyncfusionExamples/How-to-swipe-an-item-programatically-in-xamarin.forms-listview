@@ -11,6 +11,7 @@ namespace ListViewSample
     public class Contacts : INotifyPropertyChanged
     {
         private string contactName;
+        private ImageSource image;
         private string contactNumber;
 
         public Contacts(string name, string number)
@@ -47,6 +48,16 @@ namespace ListViewSample
                     contactNumber = value;
                     this.RaisedOnPropertyChanged("ContactNumber");
                 }
+            }
+        }
+
+        public ImageSource ContactImage
+        {
+            get { return this.image; }
+            set
+            {
+                this.image = value;
+                this.RaisedOnPropertyChanged("ContactImage");
             }
         }
 
